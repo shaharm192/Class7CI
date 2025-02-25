@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // This checks out the code from the repository.
-                git clone git(url: 'https://github.com/shaharm192/Class7CI.git', branch: 'main')
+                sh 'git clone https://github.com/shaharm192/Class7CI.git'
 
             }
         }
