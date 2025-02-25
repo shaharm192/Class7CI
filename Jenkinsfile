@@ -6,6 +6,7 @@ pipeline {
             steps {
                 // This checks out the code from the repository.
                 git clone "https://github.com/shaharm192/Class7CI.git"
+
             }
         }
         stage('Run Script') {
